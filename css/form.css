@@ -1,0 +1,28 @@
+﻿input:focus::-webkit-input-placeholder      { color:transparent; }
+input:focus:-moz-placeholder                { color:transparent; }
+textarea:focus::-webkit-input-placeholder   { color:transparent; }
+textarea:focus:-moz-placeholder             { color:transparent; }
+            
+.form-focus, .form-control:focus            { background-color:#f0f0f0; font-family: Merriweather,'Helvetica Neue',Arial,sans-serif}
+
+#sendButton                                 { width:30%; padding:0.5em; background-color:#3d3d3f; border:1px solid rgb(177, 177, 177); color:white; }
+#sendButton:hover                           { background-color:hsl(0, 0%, 30%); cursor:pointer; border:1px solid #f1eded;}
+#sendButton:active                          { background-color:hsl(0,0%,40%); }
+#sendButton img                             { margin-right:0.4em; }
+
+
+
+/*///////////////////////////////////////////       boostrap override           ////////////////////////////////////////////////////*/
+
+.form-group                                 { margin-bottom:0.3em; }
+
+.form-control                               { background-color:#2d2d2f; border:none; border-radius:0; font-size:1em; height:3em; }
+.form-control:focus                         { border-color:none; -webkit-box-shadow: none; box-shadow: none; 
+                                              -moz-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; transition:all 0.2s ease-in-out;  }
+
+/*tooltip*/
+.tooltip-inner                              { max-width: 200px; padding: 3px 8px; color: #fff; text-align: center; text-decoration: none; background-color: #232323; border-radius: 4px; }
+.tooltip.top .tooltip-arrow                 { bottom: 0; left: 50%; margin-left: -5px; border-width: 5px 5px 0; border-top-color: #232323; }
+.tooltip.left .tooltip-arrow                { top: 50%; right: 0; margin-top: -5px; border-width: 5px 0 5px 5px; border-left-color: #232323;  }
+
+.row                                        { margin:0 0 0 0; }
